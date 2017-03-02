@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>子亦.报名</title>
+	<link rel="shortcut icon" href="head.ico" type="image/x-icon" />
+    <!-- zui -->
+    <link href="css/zui.min.css" rel="stylesheet">
+  </head>
+  <body >
+	<header id="header" class="bg-primary">
+      <div class="navbar navbar-inverse navbar-fixed-top" id="navbar" role="banner">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="##" class="navbar-brand"><span class="path-zui-36"><i class="path-1"></i><i class="path-2"></i></span> <span class="brand-title">紫丁香之翼-联谊特别活动</span> &nbsp;<small class="zui-version"></small> </a>
+          </div>
+          <nav class="collapse navbar-collapse zui-navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+				</br>
+				<li><i class="icon icon-hand-right"><font face="微软雅黑">By 肆Mars超</font></i></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      
+        
+      </div>
+    </header>
+	<div class="container">
+		<article class="article">
+		  <header>
+			<h1 class="text-center">贴吧联谊报名</h1>
+			
+			<section class="abstract">
+			  <p><strong>摘要：</strong>通过这些问题即可大致了解你和你对对方的预期，填写完成后，系统会自动分配号码并在所有填写的用户中为你匹配心仪的另一半，匹配成功后，余下事宜会在贴吧里和两校联谊群里进一步提及哦。群号码608840434。</p>
+			</section>
+		  </header>
+		  <section class="content">
+		  
+		  
+		  <h1 id="welcome">来者是帅气的汉砸还是美丽的妹纸？</h1></br>
+		  <div id="area"></div>
+		  <button class="btn btn-block " type="button" id="btn_temp" onclick="boy()">
+		  <i class="icon icon-mars icon-3x"></i>汉砸</button>
+		  </br>
+		  <button class="btn btn-block " type="button" id="btn_temp" onclick="girl()">
+		  <i class="icon icon-venus icon-3x"></i>妹纸</button>
+		  <script>
+			function boy()
+			{
+				$("button#btn_temp").hide();
+				$("#welcome").hide();
+				$("#area").load("boy.txt");
+			}
+			function girl()
+			{
+				$("button#btn_temp").hide();
+				$("#welcome").hide();
+				$("#area").load("girl.txt");
+			}
+		  </script>
+		  
+
+
+
+
+		  </section>
+		  <footer>
+			<p class="pull-right text-muted">最终解释权归工大医大联谊策划组所有。</p>
+			
+		  </footer>
+		</article>
+	</div>
+
+
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="js/zui.min.js"></script>
+  </body>
+</html>

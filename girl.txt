@@ -1,0 +1,151 @@
+﻿<form action="forphp.php" method="post">
+<h3>你的年级？（两个字，例如“大三”“研一”“博一”等）</h3></br>
+<input type="text" name="qblank0"/></br>
+<h3>对对方年级的预期？（要求同上，如果指定年级则不高于和不低于输入一样即可）</h3>
+不高于<input type="text" name="qblank1"/></br>
+不低于<input type="text" name="qblank2"/></br>
+<h3>你的身高？（cm）</h3></br>
+<input type="text" name="qblank3"/></br>
+<h3>对方身高预期度？</h3></br>
+不高于<input type="text" name="qblank4"/></br>
+不低于<input type="text" name="qblank5"/></br>
+<h3>你是妹子还是汉子？</h3></br>
+<label><input type="radio" name="q0" value="1"/>1）汉子    </label></br>
+<label><input type="radio" name="q0" value="2"/>2）妹子</label></br>
+<h3>你的颜值？</h3></br>
+<label><input type="radio" name="q1" value="1"/>1）总有人夸我漂亮  </label></br>
+<label><input type="radio" name="q1" value="2"/>2）我感觉自己还行</label></br>
+<label><input type="radio" name="q1" value="3"/>3）也就那样吧</label></br>
+<h3>对对方颜值的预期？</h3></br>
+<label><input type="radio" name="q2" value="1"/>1）秀色可餐我喜欢</label></br>
+<label><input type="radio" name="q2" value="2"/>2）看着顺眼就挺好</label></br>
+<label><input type="radio" name="q2" value="3"/>3）平平淡淡才是真 </label></br>
+<label><input type="radio" name="q2" value="4"/>4）不在乎</label></br>
+<h3>你的身材？</h3></br>
+<label><input type="radio" name="q3" value="1"/>1）很标准身材（什么身高减去体重得多少blabla的）   </label></br>
+<label><input type="radio" name="q3" value="2"/>2）微瘦但是有力量    </label></br>
+<label><input type="radio" name="q3" value="3"/>3）微胖但是身体好    </label></br>
+<h3>预期对方身材？</h3></br>
+<label><input type="radio" name="q4" value="1"/>1）标准点好啊</label></br>
+<label><input type="radio" name="q4" value="2"/>2）瘦瘦的精神</label></br>
+<label><input type="radio" name="q4" value="3"/>3）胖一点可爱</label></br>
+<label><input type="radio" name="q4" value="4"/>4）我不在意身材的。。</label></br>
+<h3>你脾气好吗？</h3></br>
+<label><input type="radio" name="q5" value="1"/>1）讲道理我脾气很好啊</label></br>
+<label><input type="radio" name="q5" value="2"/>2）还行啊，不好不坏吧</label></br>
+<label><input type="radio" name="q5" value="3"/>3）不太好，有点容易生气</label></br>
+<h3>希望对方的脾气？</h3></br>
+<label><input type="radio" name="q6" value="1"/>1）我脾气就不好，来个脾气好的吧</label></br>
+<label><input type="radio" name="q6" value="2"/>2）不太差就行呀</label></br>
+<label><input type="radio" name="q6" value="3"/>3）如果是足够对的人，我可以包容</label></br>
+<h3>你的性格属于？</h3></br>
+<label><input type="radio" name="q7" value="1"/>1）活泼，喜欢认识陌生朋友并相处融洽    </label></br>
+<label><input type="radio" name="q7" value="2"/>2）中等，和熟人比较high，陌生人抹不开    </label></br>
+<label><input type="radio" name="q7" value="3"/>3）内向，偏爱独处</label></br>
+<h3>希望对方的性格？</h3></br>
+<label><input type="radio" name="q8" value="1"/>1）偏外向一点，也能带带我</label></br>
+<label><input type="radio" name="q8" value="2"/>2）尽量不要太内向吧</label></br>
+<label><input type="radio" name="q8" value="3"/>3）讲真这对我来说不算问题</label></br>
+<h3>介意对方吸烟吗？</h3></br>
+<label><input type="radio" name="q9" value="1"/>1）介意    </label></br>
+<label><input type="radio" name="q9" value="2"/>2）不介意</label></br>
+<h3>觉得男生可以打游戏吗？</h3></br>
+<label><input type="radio" name="q10" value="1"/>1）不行…男生打游戏时说的话不能相信。</label></br>
+<label><input type="radio" name="q10" value="2"/>2）可以，不过分就行啊。。？</label></br>
+<h3>你觉得对方可以把天聊死吗？</h3></br>
+<label><input type="radio" name="q11" value="1"/>1）要会聊天的比较好吧</label></br>
+<label><input type="radio" name="q11" value="2"/>2）要死啊，才不要</label></br>
+<label><input type="radio" name="q11" value="3"/>3）真诚的话就好，只要别太傻。。。</label></br>
+<h3>爱学习还是爱娱乐？</h3></br>
+<label><input type="radio" name="q12" value="1"/>1）学习使我快乐</label></br>
+<label><input type="radio" name="q12" value="2"/>2）兼而有之</label></br>
+<label><input type="radio" name="q12" value="3"/>3）出门high呀</label></br>
+<label><input type="radio" name="q12" value="4"/>4）都不啊…</label></br>
+<h3>希望对方爱学习还是爱浪？</h3></br>
+<label><input type="radio" name="q13" value="1"/>1）我们一起徜徉在学习的海洋中吧</label></br>
+<label><input type="radio" name="q13" value="2"/>2）不要太极端呀</label></br>
+<label><input type="radio" name="q13" value="3"/>3）我们一起出门high</label></br>
+<label><input type="radio" name="q13" value="4"/>4）不在乎呀这是什么问题…</label></br>
+<h3>希望对方一起运动吗？</h3></br>
+<label><input type="radio" name="q14" value="1"/>1）希望   </label></br>
+<label><input type="radio" name="q14" value="2"/>2）不在乎</label></br>
+<h3>你认为男女关系应该是什么样的？</h3></br>
+<label><input type="radio" name="q15" value="1"/>1）女主内，男主外</label></br>
+<label><input type="radio" name="q15" value="2"/>2）一切事宜共同商议</label></br>
+<label><input type="radio" name="q15" value="3"/>3）强权至上啊，谁厉害听谁的</label></br>
+<h3>唱歌是否跑调？</h3></br>
+<label><input type="radio" name="q16" value="1"/>1）是</label></br>
+<label><input type="radio" name="q16" value="2"/>2）不是</label></br>
+<h3>会在意对方是否跑调？</h3></br>
+<label><input type="radio" name="q17" value="1"/>1）在意</label></br>
+<label><input type="radio" name="q17" value="2"/>2）不在意</label></br>
+<h3>是否近视？</h3></br>
+<label><input type="radio" name="q18" value="1"/>1）不近视或几乎不近视</label></br>
+<label><input type="radio" name="q18" value="2"/>2）关键时刻上眼镜 </label></br>
+<label><input type="radio" name="q18" value="3"/>3）低于600但是需要一直戴眼镜  </label></br>
+<label><input type="radio" name="q18" value="4"/>4）近视，高于600度    </label></br>
+<h3>预期的对方最重近视程度？</h3></br>
+<label><input type="radio" name="q19" value="1"/>1）不要近视。我不喜欢。。</label></br>
+<label><input type="radio" name="q19" value="2"/>2）稍微有点近视也无所谓</label></br>
+<label><input type="radio" name="q19" value="3"/>3）最好低于600吧。。</label></br>
+<label><input type="radio" name="q19" value="4"/>4）不在乎的，谁还不有点近视。。</label></br>
+<h3>自习时是否害怕打扰他人而怯手怯脚？</h3></br>
+<label><input type="radio" name="q20" value="1"/>1）是    </label></br>
+<label><input type="radio" name="q20" value="2"/>2）否</label></br>
+<label><input type="radio" name="q20" value="3"/>3）没注意</label></br>
+<h3>是否希望对方和你上一条一样？</h3></br>
+<label><input type="radio" name="q21" value="1"/>1）是    </label></br>
+<label><input type="radio" name="q21" value="2"/>2）否    </label></br>
+<label><input type="radio" name="q21" value="3"/>3）不在乎</label></br>
+<h3>吃饭是否吧唧嘴？</h3></br>
+<label><input type="radio" name="q22" value="1"/>1）是    </label></br>
+<label><input type="radio" name="q22" value="2"/>2）否</label></br>
+<label><input type="radio" name="q22" value="3"/>3）没注意</label></br>
+<h3>是否希望对方和你上一条一样？</h3></br>
+<label><input type="radio" name="q23" value="1"/>1）是    </label></br>
+<label><input type="radio" name="q23" value="2"/>2）否    </label></br>
+<label><input type="radio" name="q23" value="3"/>3）不在乎</label></br>
+<h3>你的卫生素质如何？</h3></br>
+<label><input type="radio" name="q24" value="1"/>1）过硬，洗澡频率超级高，忍不了自己脏呀</label></br>
+<label><input type="radio" name="q24" value="2"/>2）很棒，起码天天刷牙，脸洗得好，头发不油脚不臭etc</label></br>
+<label><input type="radio" name="q24" value="3"/>3）不脏，过得去</label></br>
+<label><input type="radio" name="q24" value="4"/>4）嗯？凑合事吧…</label></br>
+<h3>预期对方的卫生素质最低标准？</h3></br>
+<label><input type="radio" name="q25" value="1"/>1）满分没商量...（假装卫生素质满分100）</label></br>
+<label><input type="radio" name="q25" value="2"/>2）80分以上呀</label></br>
+<label><input type="radio" name="q25" value="3"/>3）互相将就，不乱成猪窝不就挺好的？</label></br>
+<label><input type="radio" name="q25" value="4"/>4）噢，我不在乎的</label></br>
+<h3>是否说脏话？</h3></br>
+<label><input type="radio" name="q26" value="1"/>1）不说    </label></br>
+<label><input type="radio" name="q26" value="2"/>2）说但是保证在对方面前不说   </label></br>
+<label><input type="radio" name="q26" value="3"/>3）脏话是一种习惯，能提高人的忍耐力</label></br>
+<h3>能否容忍对方说脏话？    </h3></br>
+<label><input type="radio" name="q27" value="1"/>1）我有精神洁癖，对方一定不能说</label></br>
+<label><input type="radio" name="q27" value="2"/>2）不能，但是听不到也无所谓 </label></br>
+<label><input type="radio" name="q27" value="3"/>3）能</label></br>
+<h3>你的未来发展地区？</h3></br>
+<label><input type="radio" name="q28" value="1"/>1）东北    </label></br>
+<label><input type="radio" name="q28" value="2"/>2）华北    </label></br>
+<label><input type="radio" name="q28" value="3"/>3）华东    </label></br>
+<label><input type="radio" name="q28" value="4"/>4）中南    </label></br>
+<label><input type="radio" name="q28" value="5"/>5）西北    </label></br>
+<label><input type="radio" name="q28" value="6"/>6）西南</label></br>
+<label><input type="radio" name="q28" value="7"/>7）根据对方做考虑</label></br>
+<h3>预期对方的未来发展地区？</h3></br>
+<label><input type="radio" name="q29" value="1"/>1）要和我一样</label></br>
+<label><input type="radio" name="q29" value="2"/>2）可以商量</label></br>
+<h3>是否粘人？</h3></br>
+<label><input type="radio" name="q30" value="1"/>1）不，一直比较酷。。</label></br>
+<label><input type="radio" name="q30" value="2"/>2）是，没什么办法</label></br>
+<h3>希望对方是否粘人？</h3></br>
+<label><input type="radio" name="q31" value="1"/>1）我受不了太粘人</label></br>
+<label><input type="radio" name="q31" value="2"/>2）粘人一些好呀</label></br>
+<label><input type="radio" name="q31" value="3"/>3）随便吧，都行呀</label></br>
+<h3>前任数目？（确认恋爱关系就算咯不要害羞）</h3></br>
+<input type="text" name="qblank6"/></br>
+<h3>预期对方前任数目？</h3></br>
+最少<input type="text" name="qblank7"/></br>
+最多<input type="text" name="qblank8"/></br>
+<h3>留一句想对对方说的话？</h3></br>
+<textarea class="form-control new-comment-text" name="ones_os" placeholder="人在做，天在…哦不不不，祝百年好合"></textarea>
+</br><button type="submit" class="btn btn-primary">提交</button>
